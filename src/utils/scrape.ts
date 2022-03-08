@@ -19,6 +19,9 @@ export const scrape = async (): Promise<string[]> => {
     })
   );
 
+  // Save water, close your browser tabs
+  await browser.close();
+
   // Return string array of td innerhtml
   return data;
 };
