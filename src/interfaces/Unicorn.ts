@@ -1,3 +1,4 @@
+// Defines each unique unicorn
 interface Unicorn {
   company: string;
   cbUrl: string;
