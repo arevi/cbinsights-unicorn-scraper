@@ -2,7 +2,7 @@ import puppeteer from "puppeteer";
 
 /**
  * Instanties a new puppeteer instance and scrapes all of the table cells that exist within the cbinsights table body
- * @returns String[] - Array of all scraped calues from table cells
+ * @returns String[] - Array of all scraped values from table cells
  */
 export const scrape = async (): Promise<string[]> => {
   // Instantiate our browser & page
