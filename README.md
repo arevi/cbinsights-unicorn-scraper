@@ -6,3 +6,6 @@ Scrape results from a curated list of unicorn startups for educational purposes 
 
 #### How
 > Puppeteer is used to navigate to the cbinsights website, the information is scraped from their tabular format, and massaged. It is then written to disk as a json file.
+
+#### Things to know
+> This isn't intended to run on any production system, it probably will error out at some point. Error handling was purposefully omitted, but I welcome any pull request to add proper error handling.
