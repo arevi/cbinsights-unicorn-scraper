@@ -1,0 +1,30 @@
+{
+  "name": "cbinsights-unicorn-scraper",
+  "version": "1.0.0",
+  "description": "Scrape results from a curated list of unicorn startups for educational purposes",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arevi/cbinsights-unicorn-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arevi/cbinsights-unicorn-scraper/issues"
+  },
+  "homepage": "https://github.com/arevi/cbinsights-unicorn-scraper#readme",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/puppeteer": "^5.4.5",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "puppeteer": "^13.5.0"
+  }
+}
